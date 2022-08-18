@@ -1,5 +1,9 @@
-describe('My First Jest Test', () => {
-    it('Does not do much!', () => {
-        expect(true).toEqual(true);
+import { describe, expect } from '@jest/globals'
+
+import { addPlugin } from "../src/add-plugin";
+
+describe('addPlugin method', () => {
+    it('should exist', () => {
+        expect(addPlugin).toBeDefined();
     });
 });

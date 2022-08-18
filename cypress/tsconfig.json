@@ -1,6 +1,6 @@
 {
     "compilerOptions": {
-        "types": ["cypress"],
+        "types": ["cypress", "cypress-fail-fast"],
         "esModuleInterop": true,
         "noEmit": true
     },

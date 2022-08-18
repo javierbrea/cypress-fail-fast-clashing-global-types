@@ -6,9 +6,9 @@
         "esModuleInterop": true,
         "forceConsistentCasingInFileNames": true,
         "skipLibCheck": true,
-        "types": ["jest", "cypress", "cypress-file-upload"],
+        "types": ["cypress", "cypress-fail-fast", "cypress-file-upload"],
         "resolveJsonModule": true,
         "noEmit": true,
     },
-    "include": ["src/**/*.ts", "src/**/*.tsx", "jest/**/*.ts"],
+    "include": ["src/**/*.ts", "src/**/*.tsx"],
 }
