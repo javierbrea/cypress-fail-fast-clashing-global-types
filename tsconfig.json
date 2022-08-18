@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "module": "commonjs",
+        "strict": true,
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true,
+        "skipLibCheck": true,
+        "types": ["jest", "cypress", "cypress-file-upload"],
+        "resolveJsonModule": true,
+        "noEmit": true,
+    },
+    "include": ["src/**/*.ts", "src/**/*.tsx", "jest/**/*.ts"],
+}
